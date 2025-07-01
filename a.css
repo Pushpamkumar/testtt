@@ -1,0 +1,54 @@
+/* Background and general text */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #fff3e0);
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main heading */
+h1 {
+    color: #ff4081;
+    text-align: center;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px #aaa;
+}
+
+/* Paragraphs */
+p {
+    font-size: 18px;
+    color: #37474f;
+    margin: 15px 0;
+}
+
+/* List styling */
+ul {
+    list-style-type: circle;
+    padding-left: 40px;
+}
+
+/* List item styling */
+li {
+    font-size: 18px;
+    margin: 8px 0;
+    padding: 4px 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+/* Alternate colors for items */
+li:nth-child(1) { background: #ffccbc; color: #bf360c; }
+li:nth-child(2) { background: #dcedc8; color: #33691e; }
+li:nth-child(3) { background: #f8bbd0; color: #880e4f; }
+li:nth-child(4) { background: #ffe0b2; color: #e65100; }
+li:nth-child(5) { background: #e1bee7; color: #4a148c; }
+li:nth-child(6) { background: #c8e6c9; color: #1b5e20; }
+li:nth-child(7) { background: #b3e5fc; color: #01579b; }
+li:nth-child(8) { background: #d1c4e9; color: #311b92; }
+
+/* Hover effect */
+li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
